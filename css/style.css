@@ -18,8 +18,8 @@ body {
   display: flex;
   min-width: 600px;
   margin: 0;
-  background-color: #43A047;
-  color: rgba(255, 255, 255, 0.7);
+  background-color: #e6cf4e;
+  color: rgba(0, 0, 0, 0.8);
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -28,7 +28,7 @@ body {
   min-width: 300px;
   position: relative;
   padding: 2em;
-  background-color: #43A047;
+  background-color: #e6cf4e;
   font-size: 15px;
 }
 
@@ -52,10 +52,10 @@ pre {
 
 code {
   padding: 0 2px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   font-family: 'Source Code Pro', monospace;
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
   white-space: nowrap;
 }
 
@@ -64,7 +64,7 @@ li {
 }
 
 a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 a:hover {
@@ -73,7 +73,7 @@ a:hover {
 
 .help {
   cursor: pointer;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
 .tooltip {
@@ -81,11 +81,15 @@ a:hover {
   display: inline-block;
   max-width: 225px;
   padding: 1em 1em;
-  background-color: #2c3e50;
+  background-color: #374353;
   border-radius: 4px;
   font-size: 12px;
   line-height: 1.5;
   z-index: 60;
+}
+
+.tooltip > p {
+    color: #fff;
 }
 
 .tooltip:after {
@@ -97,7 +101,7 @@ a:hover {
   height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 12px solid #2c3e50;
+  border-bottom: 12px solid #374353;
 }
 
 #share {
@@ -147,14 +151,14 @@ pre {
   font-family: 'Source Code Pro', monospace;
   font-size: 16px;
   line-height: 1.5;
-  color: #aaa;
+  color: #f5e6d0;
 }
 
 #css {
   height: 260px;
   position: relative;
   padding: 10px 10px 10px 40px;
-  background-color: #ddd;
+  background-color: #4F576D;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -166,8 +170,8 @@ pre {
   height: 100%;
   padding: 10px 6px;
   text-align: right;
-  background-color: #999;
-  color: #D5D5D5;
+  background-color: #363f58;
+  color: #f5e6d0;
 }
 
 #code {
@@ -231,11 +235,11 @@ pre {
 
 .level-marker.current,
 .level-marker:hover {
-  border-color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.8);
 }
 
 .level-marker.solved {
-  background-color: #228B24;
+  background-color: #D9C554;
 }
 
 #level-indicator,
@@ -264,13 +268,14 @@ pre {
 
 #level-indicator:hover,
 .arrow:not(.disabled):hover {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #labelReset {
   margin-top: 1em;
   text-align: center;
   cursor: pointer;
+  color: #fff;
 }
 
 .arrow {
@@ -302,7 +307,7 @@ pre {
 button {
   display: inline-block;
   padding: 0.4em 0.8em;
-  background-color: #D11606;
+  background-color: #DD5044;
   border: none;
   border-radius: 4px;
   font-family: 'PT Sans', sans-serif;
@@ -323,7 +328,7 @@ button:active {
 }
 
 button:not(.disabled):hover {
-  background-color: #F12D22;
+  background-color: #E26D63;
 }
 
 #next {
@@ -341,7 +346,7 @@ button:not(.disabled):hover {
   line-height: 1.5em;
   text-align: center;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 #settings {
@@ -351,9 +356,9 @@ button:not(.disabled):hover {
 .toggle {
   display: inline-block;
   padding: 1px 8px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 3px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
   user-select: none;
 }
@@ -374,7 +379,7 @@ button:not(.disabled):hover {
   bottom: -12px;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-top: 12px solid #2c3e50;
+  border-top: 12px solid #374353;
   border-bottom: none;
 }
 
@@ -384,7 +389,7 @@ button:not(.disabled):hover {
 
 #settings h4 {
   margin: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 #board {
@@ -410,7 +415,7 @@ button:not(.disabled):hover {
 #background {
   z-index: 10;
   border-radius: 0 0 0 10px;
-  background-color: #1F5768;
+  background-color: #15395F;
 }
 
 #pond {
@@ -572,4 +577,3 @@ button:not(.disabled):hover {
   font-weight: 600;
   line-height: 1;
 }
-
