@@ -1,8 +1,7 @@
 Flexbox Ducky
 =======
 
-Flexbox Ducky is an adapted version of Flexbox Froggy for CSE 154: Web Development
-at the University of Washington. Check out the original at [flexboxfroggy.com](http://flexboxfroggy.com).
+Flexbox Ducky is an adapted version of [Flexbox Froggy](https://github.com/thomaspark/flexboxfroggy) for CSE 154: Web Development at the University of Washington. Check out the original at [flexboxfroggy.com](http://flexboxfroggy.com).
 
 Read [this blog post](http://thomaspark.co/2015/11/learning-css-layout-with-flexbox-froggy/) for background on the original project.
 
