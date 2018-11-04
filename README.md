@@ -5,7 +5,7 @@ Flexbox Ducky is an adapted version of [Flexbox Froggy](https://github.com/thoma
 
 Read [this blog post](http://thomaspark.co/2015/11/learning-css-layout-with-flexbox-froggy/) for background on the original project.
 
-![FontCDN screenshot](./images/screenshot.png)
+![Flex Box Ducky Screenshot](./images/screenshot.png)
 
 ## Original Author
 
