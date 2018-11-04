@@ -253,7 +253,7 @@ var levels = [
 var levelWin = {
   name: 'win',
   instructions: {
-    'en': '<p>You win! Thanks to your mastery of flexbox, you were able to help all of the ducks to their lilypads. Just look how hoppy they are!</p><p>If you found this ribbeting, be sure to visit <a href="http://cssgridgarden.com/">Grid Garden</a> to learn about another powerful new feature of CSS layout. You can also check out my other projects on <a href="http://thomaspark.co">my blog</a> or <a href="http://twitter.com/thomashpark">Twitter</a>.</p><p>Want to keep learning while supporting Flexbox Ducky? Try out the topnotch web design and coding courses offered by <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=flexboxDucky">Treehouse</a>. And be sure to share Flexbox Ducky with your friends!</p>'
+    'en': '<p>You win! Thanks to your mastery of flexbox, you were able to help all of the ducks to their lilypads!</p><h3>*TODO: insert more text, links, and fun gifs here*</h3>'
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
   classes: {'#pond, #background': 'wrap'},

@@ -104,32 +104,6 @@ a:hover {
   border-bottom: 12px solid #374353;
 }
 
-#share {
-  display: none;
-  margin-bottom: 3em;
-  text-align: center;
-}
-
-.fb-like {
-  z-index: 20;
-  vertical-align: top;
-}
-
-.img-next {
-  text-align: center;
-}
-
-.img-next img {
-  display: inline-block;
-  margin: 1em;
-  width: 200px;
-  opacity: 0.9;
-}
-
-.img-next img:hover {
-  opacity: 1;
-}
-
 #instructions {
   padding-top: 1rem;
 }
@@ -409,7 +383,7 @@ button:not(.disabled):hover {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 95%;
   padding: 1em;
 }
 
