@@ -4,7 +4,7 @@ var levels = [
     instructions: {
       'en': '<p>Welcome to Flexbox Ducky, a game where you help Ducky and friends by writing CSS code! Guide this duck to the lilypad on the right by using the <code>justify-content</code> property, which aligns items horizontally and accepts the following values:</p><ul><li><code>flex-start</code>: Items align to the left side of the container.</li><li><code>flex-end</code>: Items align to the right side of the container.</li><li><code>center</code>: Items align at the center of the container.</li><li><code>space-between</code>: Items display with equal spacing between them.</li><li><code>space-around</code>: Items display with equal spacing around them.</li></ul><p>For example, <code>justify-content: flex-end;</code> will move the duck to the right.</p>'
     },
-    board: 'g',
+    board: 'y',
     style: {'justify-content': 'flex-end'},
     before: "#pond {\n  display: flex;\n",
     after: "}"
@@ -132,7 +132,7 @@ var levels = [
   {
     name: 'order 1',
     instructions: {
-      'en': '<p>Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the <code>order</code> property to individual items. By default, items have a value of 0, but we can use this property to set it to a positive or negative integer value.</p><p>Use the <code>order</code> property to reorder the ducks according to their lilypads.</p>'
+      'en': '<p>Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the <code>order</code> property to individual items. By default, items have a value of 0, but we can set this property to be a positive or negative integer value representing an item being reordered to the right or left of it\'s starting position.</p><p>Use the <code>order</code> property to reorder the ducks according to their lilypads. Notice that we are applying order to the yellow duck. Which direction should it go?</p>'
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
@@ -156,7 +156,7 @@ var levels = [
   {
     name: 'align-self 1',
     instructions: {
-      'en': '<p>Another property you can apply to individual items is <code>align-self</code>. This property accepts the same values as <code>align-items</code> and its value for the specific item.</p>'
+      'en': '<p>Another property you can apply to individual items is <code>align-self</code>. This property accepts the same values as <code>align-items</code> and its value for the specific item. Notice once again the item we will change is the yellow duck.</p>'
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
@@ -208,7 +208,7 @@ var levels = [
   {
     name: 'align-content 1',
     instructions: {
-      'en': '<p>The ducks are spread all over the pond, but the lilypads are bunched at the top. You can use <code>align-content</code> to set how multiple lines are spaced apart from each other. This property takes the following values:</p><ul><li><code>flex-start</code>: Lines are packed at the top of the container.</li><li><code>flex-end</code>: Lines are packed at the bottom of the container.</li><li><code>center</code>: Lines are packed at the vertical center of the container.</li><li><code>space-between</code>: Lines display with equal spacing between them.</li><li><code>space-around</code>: Lines display with equal spacing around them.</li><li><code>stretch</code>: Lines are stretched to fit the container.</li></ul><p>This can be confusing, but <code>align-content</code> determines the spacing between lines, while <code>align-items</code> determines how the items as a whole are aligned within the container. When there is only one line, <code>align-content</code> has no effect.</p>'
+      'en': '<p>The ducks are spread all over the pond, but the lilypads are bunched at the top. You can use <code>align-content</code> to set how lines are spaced apart from each other. This property takes the following values:</p><ul><li><code>flex-start</code>: Lines are packed at the top of the container.</li><li><code>flex-end</code>: Lines are packed at the bottom of the container.</li><li><code>center</code>: Lines are packed at the vertical center of the container.</li><li><code>space-between</code>: Lines display with equal spacing between them.</li><li><code>space-around</code>: Lines display with equal spacing around them.</li><li><code>stretch</code>: Lines are stretched to fit the container.</li></ul><p>This can be confusing, but <code>align-content</code> determines the spacing between lines, while <code>align-items</code> determines how the items as a whole are aligned within the container. When there is only one line, <code>align-content</code> has no effect.</p>'
   },
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'},
@@ -253,7 +253,7 @@ var levels = [
 var levelWin = {
   name: 'win',
   instructions: {
-    'en': '<p>You win! Thanks to your mastery of flexbox, you were able to help all of the ducks to their lilypads!</p><h3>*TODO: insert more text, links, and fun gifs here*</h3>'
+    'en': '<p>You win! Thanks to your mastery of flexbox, you were able to help all of the ducks to their lilypads!</p><p class="duck_gif"><iframe src="https://giphy.com/embed/KOfp5sCYol4S4" width="200" height="200" frameBorder="0"></iframe><iframe src="https://giphy.com/embed/KOfp5sCYol4S4" width="200" height="200" frameBorder="0"></iframe><iframe src="https://giphy.com/embed/KOfp5sCYol4S4" width="200" height="200" frameBorder="0"></iframe></p><p>If you would like to dive deeper into flexbox or need a handy cheatsheet checkout <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to CSS Flexbox</a>.</p><p> Also be sure to visit <a href="http://cssgridgarden.com/" target="_blank">Grid Garden</a> to learn about another powerful new feature of CSS layout.</p><p>Flexbox Ducky is an adapted version of Flexbox Froggy for a web development course at the University of Washington. Check out the course website <a href="https://courses.cs.washington.edu/courses/cse154/18au/" target="_blank">here</a>.</p>'
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
   classes: {'#pond, #background': 'wrap'},

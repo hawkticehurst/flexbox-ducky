@@ -383,7 +383,7 @@ button:not(.disabled):hover {
   top: 0;
   left: 0;
   width: 100%;
-  height: 95%;
+  height: 93%;
   padding: 1em;
 }
 
@@ -498,6 +498,18 @@ button:not(.disabled):hover {
   flex-wrap: wrap;
 }
 
+.duck_gif {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 992px)  {
+  iframe {
+      width: 130px;
+      height: 130px;
+  }
+}
+
 @media only screen and (max-width: 767px)  {
 
   body,
@@ -507,5 +519,10 @@ button:not(.disabled):hover {
 
   .title {
     font-size: 26px;
+  }
+
+  iframe {
+      width: 80px;
+      height: 80px;
   }
 }

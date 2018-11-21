@@ -21,6 +21,6 @@ var docs = {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>'
   },
   'order': {
-    'en': '<p>Specifies the order of the flex item.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>'
+    'en': '<p>Specifies the order of the flex item.</p><code>order: &lt;integer&gt;</code>'
   }
 };
