@@ -20,6 +20,7 @@ Thomas Park
 Hawk Ticehurst
 
 * [LinkedIn](https://www.linkedin.com/in/hawk-ticehurst/)
+* [Website](https://hawkticehurst.com/)
 * [GitHub](https://github.com/hawkticehurst)
 
 ## Copyright and License
