@@ -1,7 +1,7 @@
 Flexbox Ducky
 =======
 
-Flexbox Ducky is a reskinned version of [Flexbox Froggy](https://github.com/thomaspark/flexboxfroggy) for CSE 154: Web Development at the University of Washington. Check it out at the [CSE 154 Website](https://courses.cs.washington.edu/courses/cse154/flexboxducky/).
+Flexbox Ducky is a reskinned version of [Flexbox Froggy](https://github.com/thomaspark/flexboxfroggy) for CSE 154: Web Programming at the University of Washington. Check it out at the [CSE 154 Website](https://courses.cs.washington.edu/courses/cse154/flexboxducky/).
 
 ![Flex Box Ducky Screenshot](./images/screenshot.png)
 
